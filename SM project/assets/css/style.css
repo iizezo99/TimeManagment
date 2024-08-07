@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 2em;
+}
+
+nav h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    padding: 20px 5px;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    border-radius: 5px;
+}
+
+nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    background: #222;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: transparent;
+}
+
+form {
+    margin: 0 30px;
+}
+
+.inputs-container {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 10px;
+}
+
+.inputs-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 140, 255);
+    font-size: 1.2em;
+}
+
+.inputs-container input:focus {
+    outline: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.btn input {
+    padding: 10px 30px;
+    background-color:  rgb(0, 140, 255);
+    border-radius: 5px;
+    border: 2px solid #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    transition: .3s;
+    box-shadow: 1px 1px black;
+}
+
+.btn input:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 3px 1px 1px yellow;
+}
+
+.task-name {
+    
+}
